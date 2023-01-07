@@ -27,7 +27,9 @@ function PrintDeveloperbyForEach() {
 function addData() {
   let b = { id: 4, name: "susan", age: "20", profession: "intern" };
   arr.push(b);
-  console.log(arr[arr.length - 1]);
+  arr.forEach((item) => {
+    console.log(item);
+  });
   //Write your code here
 }
 
